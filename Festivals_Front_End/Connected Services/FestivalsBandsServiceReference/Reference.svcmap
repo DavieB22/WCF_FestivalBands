@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="10cca151-5652-47fb-a066-d9f9b2fae4f3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50738/FestivalBandsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FestivalBandsService1.xsd" MetadataType="Schema" ID="0ae336cd-2778-40cb-abfb-72f8b2d49469" SourceId="1" SourceUrl="http://localhost:50738/FestivalBandsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FestivalBandsService.disco" MetadataType="Disco" ID="e5393b59-ea9c-4ebc-8906-009b21b73123" SourceId="1" SourceUrl="http://localhost:50738/FestivalBandsService.svc?disco" />
+    <MetadataFile FileName="FestivalBandsService2.xsd" MetadataType="Schema" ID="f2c67cdc-21a7-4add-8fd6-478b0ebfb136" SourceId="1" SourceUrl="http://localhost:50738/FestivalBandsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FestivalBandsService.xsd" MetadataType="Schema" ID="aaff7c88-1c81-455d-b685-3fdad8381895" SourceId="1" SourceUrl="http://localhost:50738/FestivalBandsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FestivalBandsService.wsdl" MetadataType="Wsdl" ID="82b9c4d1-2a65-4bc6-8c9a-cca9f17438c3" SourceId="1" SourceUrl="http://localhost:50738/FestivalBandsService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

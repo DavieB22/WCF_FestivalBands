@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_FestivalBands", "WCF_FestivalBands\WCF_FestivalBands.csproj", "{8777E202-BBEF-450B-9608-67FC1A3B7C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festivals_Front_End", "Festivals_Front_End\Festivals_Front_End.csproj", "{28EE2205-7C1D-4E9D-91FB-1DB33469B659}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8777E202-BBEF-450B-9608-67FC1A3B7C86} = {8777E202-BBEF-450B-9608-67FC1A3B7C86}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8777E202-BBEF-450B-9608-67FC1A3B7C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8777E202-BBEF-450B-9608-67FC1A3B7C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8777E202-BBEF-450B-9608-67FC1A3B7C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8777E202-BBEF-450B-9608-67FC1A3B7C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EE2205-7C1D-4E9D-91FB-1DB33469B659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EE2205-7C1D-4E9D-91FB-1DB33469B659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EE2205-7C1D-4E9D-91FB-1DB33469B659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EE2205-7C1D-4E9D-91FB-1DB33469B659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D945E0-A517-4415-8A12-28BA9F393520}
+	EndGlobalSection
+EndGlobal
